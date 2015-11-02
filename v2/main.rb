@@ -15,6 +15,7 @@ class Main
       logic.redeem_caps
     end
     logic.print_state
+    run
   end
 end
 

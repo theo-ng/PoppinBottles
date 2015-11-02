@@ -40,7 +40,6 @@ class Logic
 
   def print_state
     puts "Total Bottles: #{@total_bottles}, From Bottles: #{@from_bottles}, From Caps: #{@from_caps}"
-    puts "Current Bottles: #{@bots_caps_count[0]}"
-    puts "Current Caps: #{@bots_caps_count[1]}"
+    puts "Current Bottles: #{@bots_caps_count[0]}, Current Caps: #{@bots_caps_count[1]}"
   end
 end
